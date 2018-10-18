@@ -3,7 +3,7 @@
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: white;
+    color: pink;
     background: green;
     border-bottom: 2px solid black;
 }
@@ -28,11 +28,59 @@ nav a {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: whitesmoke;
+    color: pink;
     text-decoration: none;
-    border-left: 1px solid red;
+    border-left: 1px solid green;
 }
 
-nav a:  first-child{
+nav a:first-child{
     border-left: 0 none;
 }   
+
+.sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270%;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+
+h3, . sidebar h2 {
+padding-bottom: 20px;
+margin-bottom: 15px;
+line-height: 22px;
+border-bottom: 2px solid #eee;
+}
+
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+#main-container{
+    padding-top: 130px;
+
+}
+
+.main-section{
+    float: left;
+    width: 100%;
+    max-width:650px;
+    padding:30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.auth-image{
+    float:left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
